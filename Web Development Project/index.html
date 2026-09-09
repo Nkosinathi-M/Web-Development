@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nkosinathi Mahlangu — IT student and aspiring software engineer. Portfolio showcasing web development, Java, and database skills." />
+  <title>Nkosinathi Mahlangu | Portfolio</title>
+
+  <!-- Google Fonts: Poppins (headings) + Ubuntu (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome via CDN <link> (NOT the kit script — avoids CORS errors) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="#home" class="navbar__logo">Nkosinathi Mahlangu</a>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+
+      <nav id="navMenu" class="navbar__menu" role="navigation">
+        <ul class="navbar__list">
+          <li><a href="#home"     class="navbar__link active">Home</a></li>
+          <li><a href="#about"    class="navbar__link">About</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#skills"   class="navbar__link">Skills</a></li>
+          <li><a href="#projects" class="navbar__link">Projects</a></li>
+          <li><a href="#teams"    class="navbar__link">Teams</a></li>
+          <li><a href="#contact"  class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="home" class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__greeting">Hello, I'm</p>
+        <h1 class="hero__name">Nkosinathi Mahlangu</h1>
+        <p class="hero__tagline">IT Student &amp; Aspiring Software Engineer</p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact"  class="btn btn--outline">Get In Touch</a>
+        </div>
+      </div>
+      <!-- Scroll indicator -->
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+        <ion-icon name="chevron-down-outline"></ion-icon>
+      </a>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">About Me</h2>
+          <p class="section__subtitle">— Who Am I —</p>
+        </div>
+
+        <div class="about__body">
+          <div class="about__image-wrap">
+            <!-- TODO: replace nathi.jpg with your preferred profile photo -->
+            <img src="assets/images/nathi.jpg" alt="Portrait of Nkosinathi Mahlangu" class="about__photo" width="300" height="300" />
+          </div>
+
+          <div class="about__text">
+            <!-- TODO: replace with your real bio -->
+            <h3 class="about__name">Nkosinathi Mahlangu</h3>
+            <p class="about__bio">
+              I am currently studying Information Technology, with a focus on programming,
+              databases, networking, and software development. My goal is to become a skilled
+              software engineer and contribute to innovative technology solutions.
+            </p>
+            <p class="about__bio">
+              I enjoy learning about cloud computing, SQL, Java, and modern web technologies,
+              and I love solving real-world problems using technology.
+            </p>
+            <div class="about__details">
+              <p><i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <a href="mailto:Nkosinathimahlang477@gmail.com">Nkosinathimahlang477@gmail.com</a>
+              </p>
+              <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <!-- TODO: add your city/country -->
+                South Africa, Gauteng
+              </p>
+            </div>
+            <a href="CV/Curriculum Vitae of Nkosinathi Mahlangu.pdf" download class="btn btn--primary">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section id="services" class="services section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Services</h2>
+          <p class="section__subtitle">— What I Offer —</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-code" aria-hidden="true"></i>
+            </div>
+            <h3 class="service-card__title">Web Development</h3>
+            <!-- TODO: expand with your real service description -->
+            <p class="service-card__desc">
+              Building responsive, accessible static websites and front-end interfaces
+              using HTML5, CSS3, and vanilla JavaScript.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fa-brands fa-java" aria-hidden="true"></i>
+            </div>
+            <h3 class="service-card__title">Java Development</h3>
+            <!-- TODO: expand with your real service description -->
+            <p class="service-card__desc">
+              Designing and building console and desktop applications in Java, including
+              object-oriented systems and data-driven solutions.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-database" aria-hidden="true"></i>
+            </div>
+            <h3 class="service-card__title">Database Design</h3>
+            <!-- TODO: expand with your real service description -->
+            <p class="service-card__desc">
+              Designing relational databases, writing SQL queries, and integrating MySQL
+              with application back-ends.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-cloud" aria-hidden="true"></i>
+            </div>
+            <h3 class="service-card__title">Cloud Technologies</h3>
+            <!-- TODO: expand with your real service description -->
+            <p class="service-card__desc">
+              Exploring cloud infrastructure concepts and deployment strategies using
+              modern cloud platforms.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">— My Technical Toolkit —</p>
+        </div>
+
+        <div class="skills__groups">
+
+          <!-- Web Development -->
+          <div class="skill-group">
+            <div class="skill-group__header">
+              <img src="assets/images/HTML.jpg" alt="HTML and web development technologies" class="skill-group__img" width="200" height="140" />
+              <h3 class="skill-group__title">Web Development</h3>
+            </div>
+            <ul class="skill-group__list">
+              <li class="skill-item">
+                <span class="skill-item__name">HTML5</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 85%"></div>
+                </div>
+                <span class="skill-item__pct">85%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">CSS3</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 80%"></div>
+                </div>
+                <span class="skill-item__pct">80%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">JavaScript</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-valuetext="50%">
+                  <div class="skill-item__fill" style="--fill: 50%"></div>
+                </div>
+                <span class="skill-item__pct">50%</span>
+              </li>
+            </ul>
+            <!-- TODO: adjust percentages to reflect your actual proficiency -->
+          </div>
+
+          <!-- Java -->
+          <div class="skill-group">
+            <div class="skill-group__header">
+              <img src="assets/images/java.png" alt="Java programming language logo" class="skill-group__img" width="200" height="140" />
+              <h3 class="skill-group__title">Java</h3>
+            </div>
+            <ul class="skill-group__list">
+              <li class="skill-item">
+                <span class="skill-item__name">Core Java</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 75%"></div>
+                </div>
+                <span class="skill-item__pct">75%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">OOP</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 70%"></div>
+                </div>
+                <span class="skill-item__pct">70%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">JDBC</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 60%"></div>
+                </div>
+                <span class="skill-item__pct">60%</span>
+              </li>
+            </ul>
+            <!-- TODO: adjust percentages to reflect your actual proficiency -->
+          </div>
+
+          <!-- Database -->
+          <div class="skill-group">
+            <div class="skill-group__header">
+              <img src="assets/images/MySQL.jpg" alt="MySQL database logo" class="skill-group__img" width="200" height="140" />
+              <h3 class="skill-group__title">Database (MySQL)</h3>
+            </div>
+            <ul class="skill-group__list">
+              <li class="skill-item">
+                <span class="skill-item__name">SQL Queries</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 80%"></div>
+                </div>
+                <span class="skill-item__pct">80%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Schema Design</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 70%"></div>
+                </div>
+                <span class="skill-item__pct">70%</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">MySQL Workbench</span>
+                <div class="skill-item__bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-item__fill" style="--fill: 65%"></div>
+                </div>
+                <span class="skill-item__pct">65%</span>
+              </li>
+            </ul>
+            <!-- TODO: adjust percentages to reflect your actual proficiency -->
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects" class="projects section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">— Projects I Have Built —</p>
+        </div>
+
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__img-wrap">
+              <!-- TODO: replace with a screenshot of the Student Management System -->
+              <img src="assets/images/java.png" alt="Student Management System — Java desktop application" class="project-card__img" width="400" height="220" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">Java</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">JDBC</span>
+              </div>
+              <h3 class="project-card__title">Student Management System</h3>
+              <!-- TODO: add a fuller description of the project -->
+              <p class="project-card__desc">
+                A desktop application built with Java and MySQL that allows administrators
+                to manage student records — including adding, updating, searching, and
+                deleting entries via a JDBC-connected database.
+              </p>
+              <div class="project-card__links">
+                <!-- TODO: add your real GitHub repo URL -->
+                <a href="https://github.com/Nkosinathi-M/Java-Projects/tree/main/Student-Management-System" class="btn btn--sm btn--outline" aria-label="View Student Management System source code on GitHub">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <!-- TODO: add a live demo link if available -->
+                <a href="#" class="btn btn--sm btn--primary" aria-label="View Student Management System live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__img-wrap">
+              <!-- TODO: replace with a screenshot of the static webpage project -->
+              <img src="assets/images/HTML.jpg" alt="Static portfolio webpage — HTML and CSS project" class="project-card__img" width="400" height="220" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+              <h3 class="project-card__title">Static Webpage</h3>
+              <!-- TODO: add a fuller description of the project -->
+              <p class="project-card__desc">
+                A hand-built static webpage created while learning front-end development.
+                Demonstrates semantic HTML structure, custom CSS styling, and responsive
+                layout techniques.
+              </p>
+              <div class="project-card__links">
+                <!-- TODO: add your real GitHub repo URL -->
+                <a href="#" class="btn btn--sm btn--outline" aria-label="View Static Webpage source code on GitHub">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <!-- TODO: add a live demo / GitHub Pages URL -->
+                <a href="#" class="btn btn--sm btn--primary" aria-label="View Static Webpage live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- TODO: add more project cards here following the same structure above -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TEAMS ==================== -->
+    <section id="teams" class="teams section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Teams</h2>
+          <p class="section__subtitle">— Collaborators &amp; Teammates —</p>
+        </div>
+
+        <div class="teams__body">
+          <!-- TODO: replace placeholder content with real teammates/collaborators -->
+          <p class="teams__intro">
+            I'm open to collaborating on interesting projects. If you'd like to work
+            together, reach out via the contact section below.
+          </p>
+
+          <div class="teams__grid">
+
+            <div class="team-card">
+              <div class="team-card__avatar">
+                <!-- TODO: replace with collaborator photo -->
+                <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
+              </div>
+              <h3 class="team-card__name">Collaborators N/A</h3>
+              <p class="team-card__role"><!-- TODO: add role/title --></p>
+              <div class="team-card__socials">
+                <a href="#" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              </div>
+            </div>
+
+            <!-- TODO: duplicate team-card blocks for additional collaborators -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="contact section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__subtitle">— Get In Touch —</p>
+        </div>
+
+        <div class="contact__body">
+
+          <div class="contact__info">
+            <h3 class="contact__info-heading">Let's Talk</h3>
+            <p class="contact__info-text">
+              <!-- TODO: personalise this message -->
+              Have a project in mind, a question, or just want to say hi? Fill in the
+              form and I'll get back to you as soon as I can.
+            </p>
+            <ul class="contact__details">
+              <li>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <a href="mailto:Nkosinathimahlang477@gmail.com">Nkosinathimahlang477@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <!-- TODO: add city/country -->
+                South Africa, Gauteng
+              </li>
+            </ul>
+            <div class="contact__socials">
+              <!-- TODO: add real social profile URLs -->
+              <a href="https://github.com/dashboard" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/nkosinathi-mahlangu-7677172b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://x.com/NathiNkosi28043" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.tiktok.com/@mdlali_sa?_r=1&_t=ZS-99QwYZYFOey" aria-label="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <!--
+            Formspree: replace YOUR_FORM_ID below with the 8-character ID from
+            your Formspree dashboard (https://formspree.io/forms).
+            The form submits via fetch — no page redirect.
+          -->
+          <form class="contact__form" id="contactForm"
+                action="https://formspree.io/f/xvkovlkg"
+                method="POST"
+                novalidate>
+
+            <!-- Honeypot field — hidden from real users, catches bots -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <div class="form-group">
+              <label for="contactName">Name</label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                placeholder="e.g. Michael"
+                autocomplete="name"
+                required
+              />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Email</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                placeholder="yourmail@example.com"
+                autocomplete="email"
+                required
+              />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                placeholder="Your message…"
+                required
+              ></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              <span id="submitBtnText">Send Message</span>
+            </button>
+
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__copy">&copy; <span id="footerYear"></span> Nkosinathi Mahlangu. All rights reserved.</p>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer__nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__socials">
+        <!-- TODO: add real social profile URLs -->
+        <a href="https://github.com/dashboard" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/nkosinathi-mahlangu-7677172b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://x.com/NathiNkosi28043" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <a href="#home" class="footer__back-top" aria-label="Back to top">
+      <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+    </a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
