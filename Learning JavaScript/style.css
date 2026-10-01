@@ -1,0 +1,34 @@
+#dice__container{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(216, 214, 214);
+    height: 600px;
+}
+
+h1{
+    color: red;
+}
+
+button{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;  
+    font-size: 25px; 
+    font-family: 'Courier New', Courier, monospace; 
+    transition: .3s ease-in-out;
+}
+button:hover{
+    background-color: rgb(206, 102, 102);
+}
+
+
+
+#dice-rolled-number1, #dice-rolled-number2{    
+    font-size: 4em;
+}
+
+#Rolled-confirmation{
+    color: green;
+}
