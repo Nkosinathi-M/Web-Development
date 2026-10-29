@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse featured SHEIN discounts, offers and promo codes."
+    />
+    <title>SHEIN Deals | Discounts & Offers</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      FIND YOUR NEXT FASHION DEAL <span>✦</span> CHECK THE LATEST OFFERS
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="SHEIN Deals home"
+        >SHEIN<span>DEALS</span></a
+      >
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#discounts">Discounts &amp; Offers</a>
+        <a href="#discount-codes">Discount codes</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#useful-links">Useful links</a>
+      </nav>
+      <a class="header-cta" href="#discounts">Explore deals ↗</a>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR STYLE. YOUR SAVINGS.</p>
+          <h1>Good style.<br /><span>Better prices.</span></h1>
+          <p class="hero-description">
+            Explore featured SHEIN promotions and discover offers that help you
+            shop your favourite looks for less.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#discounts"
+              >Browse discounts <span>↘</span></a
+            >
+            <a class="text-link" href="#how-it-works">How to use a code</a>
+          </div>
+          <div class="hero-note">
+            <span class="sparkle">✳</span
+            ><span
+              >Offers may change. Always check the final terms at
+              checkout.</span
+            >
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-sticker">STYLE<br />ON A<br />BUDGET</div>
+          <img
+            src="assets/images/New Users.jpeg"
+            alt="Featured SHEIN promotion"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'grid';
+            "
+          />
+          <div class="image-placeholder hero-placeholder">
+            <span>ADD YOUR<br />FEATURED IMAGE</span
+            ><small>assets/images/discount-1.jpg</small>
+          </div>
+          <div class="hero-caption">THE DEAL EDIT <span>01 / 08</span></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Site highlights">
+        <div>
+          FASHION FINDS <span>✳</span> PROMO CODES <span>✳</span> NEW LOOKS FOR
+          LESS <span>✳</span> FASHION FINDS <span>✳</span> PROMO CODES
+          <span>✳</span>
+        </div>
+      </section>
+
+      <section class="discounts section-wrap" id="discounts">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE GOOD STUFF</p>
+            <h2>Discounts <span>&amp; Offers</span></h2>
+            <p class="section-intro">
+              Browse the featured deals below. Select an offer to visit its
+              destination or copy its code.
+            </p>
+          </div>
+          <span class="count-label">8 FEATURED DEALS</span>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter deals">
+          <button class="filter-button active" data-filter="all">
+            All offers
+          </button>
+          <button class="filter-button" data-filter="code">Promo codes</button>
+          <button class="filter-button" data-filter="sale">Sale offers</button>
+        </div>
+
+        <div class="deal-grid">
+          <article class="deal-card" data-type="code">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 1"
+            >
+              <img
+                src="assets/images/New Users.jpeg"
+                alt="Discount offer 1"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 01</span><small>discount-1.jpg</small></span
+              ><span class="image-tag">FEATURED</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>New Users</h3>
+              <p class="deal-description">
+                This 60% OFF coupon is for new users only.
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">CODE: <b>T5ATR</b></span
+                ><button class="copy-button" data-code="T5ATR">
+                  Copy code
+                </button>
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="sale">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 2"
+            >
+              <img
+                src="assets/images/Commission Boost Curated Top Products.jpg"
+                alt="Discount offer 2"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 02</span><small>discount-2.jpg</small></span
+              ><span class="image-tag">PROMO</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Curated Top Products</h3>
+              <p class="deal-description">
+                Curated products, don't miss out on limited-time discounts!
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">OFFER CODE: <b>53SQ5E3</b></span
+                ><a
+                  class="small-button"
+                  href="https://www.shein.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Shop deal ↗</a
+                >
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="code">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 3"
+            >
+              <img
+                src="assets/images/Curated Beauty Picks.jpg"
+                alt="Discount offer 3"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 03</span><small>discount-3.jpg</small></span
+              ><span class="image-tag">PROMO CODE</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Curated Beauty Picks</h3>
+              <p class="deal-description">
+                Curated Beauty Picks Up To 80% OFF. 60% OFF COUPON for every New User!
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">CODE: <b>7767H33</b></span
+                ><button class="copy-button" data-code="7767H33">
+                  Copy code
+                </button>
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+
+          <article class="deal-card" data-type="sale">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 4"
+            >
+              <img
+                src="assets/images/Denim Days.jpeg"
+                alt="Discount offer 4"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 04</span><small>discount-4.jpg</small></span
+              ><span class="image-tag">PROMO</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Denim Days</h3>
+              <p class="deal-description">
+                Denim Days Up To 80% OFF! Search the code 2VGRRLG
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">OFFER CODE: <b>2VGRRLG</b></span
+                ><a
+                  class="small-button"
+                  href="https://www.shein.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Shop deal ↗</a
+                >
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="code">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 5"
+            >
+              <img
+                src="assets/images/Fresh Season Tech Preview.jpg"
+                alt="Discount offer 5"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 05</span><small>discount-5.jpg</small></span
+              ><span class="image-tag">PROMO CODE</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Fresh Season Tech</h3>
+              <p class="deal-description">
+                Fresh Season Tech Up To 90% OFF! Don't Miss Out Friend!
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">CODE: <b>34B65GC</b></span
+                ><button class="copy-button" data-code="34B65GC">
+                  Copy code
+                </button>
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="sale">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 6"
+            >
+              <img
+                src="assets/images/Bestsellers  Up to 90 Perc off.jpeg"
+                alt="Discount offer 6"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 06</span><small>discount-6.jpg</small></span
+              ><span class="image-tag">SALE</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Bestsellers Up To 90%</h3>
+              <p class="deal-description">
+                Jewelry & Accessories Up To 90%! Complete your outfit here!
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">OFFER CODE: <b>QSQP39Q</b></span
+                ><a
+                  class="small-button"
+                  href="https://www.shein.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Shop deal ↗</a
+                >
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="code">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 7"
+            >
+              <img
+                src="assets/images/SHEGLAM.jpeg"
+                alt="Discount offer 7"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 07</span><small>discount-7.jpg</small></span
+              ><span class="image-tag">PROMO CODE</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>SHEGLAM</h3>
+              <p class="deal-description">
+                SHEGLAM | SUPER SALE UP TO 70% OFF!
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">CODE: <b>U48XQG5</b></span
+                ><button class="copy-button" data-code="U48XQG5">
+                  Copy code
+                </button>
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+          <article class="deal-card" data-type="sale">
+            <a
+              class="deal-image"
+              href="https://www.shein.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open SHEIN website for offer 8"
+            >
+              <img
+                src="assets/images/Kitchen & Dining.jpg"
+                alt="Discount offer 8"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <span class="image-placeholder"
+                ><span>IMAGE 08</span><small>discount-8.jpg</small></span
+              ><span class="image-tag">SALE</span>
+            </a>
+            <div class="deal-content">
+              <p class="deal-category">PROMO CODE & LINK BELOW</p>
+              <h3>Kitchen & Dining</h3>
+              <p class="deal-description">
+                Kitchen & Dining Must-haves Up To 90%! 
+              </p>
+              <div class="deal-bottom">
+                <span class="code-label">OFFER CODE: <b>773753E</b></span
+                ><a
+                  class="small-button"
+                  href="https://www.shein.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Shop deal ↗</a
+                >
+              </div>
+              <a
+                class="deal-link"
+                href="https://www.shein.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View offer ↗</a
+              >
+            </div>
+          </article>
+        </div>
+        <p class="disclaimer">
+          Please confirm that each code and promotion is valid before
+          publishing. Offers, eligibility, and expiry dates may change.
+        </p>
+      </section>
+
+      <section class="codes-section section-wrap" id="discount-codes">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">COPY, TAP, SAVE</p>
+            <h2>Discount <span>codes</span></h2>
+            <p class="section-intro">
+              Copy a code, then tap its link to open the matching offer.
+            </p>
+          </div>
+          <span class="count-label">23 CODES</span>
+        </div>
+        <div class="code-grid">
+          <article class="code-card">
+            <h3>NEW USERS</h3>
+            <div class="code-row">
+              <span class="code-box">T5ATR</span
+              ><button class="copy-button" data-code="T5ATR">Copy code</button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/46/5xrc0b6uhpdq"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/46/5xrc0b6uhpdq ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>EXISTING USERS</h3>
+            <div class="code-row">
+              <span class="code-box">53SQ5E3</span
+              ><button class="copy-button" data-code="53SQ5E3">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662gbx98xk84"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662gbx98xk84 ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>WOMEN CLOTHING(80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">326R5C8</span
+              ><button class="copy-button" data-code="326R5C8">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628gmehs1pm"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628gmehs1pm ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>BAGS &amp; SHOES (90% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">25X729T</span
+              ><button class="copy-button" data-code="25X729T">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628m7nn88jh"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628m7nn88jh ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>CLEARANCE(ALL UNDER R99)</h3>
+            <div class="code-row">
+              <span class="code-box">2DH5Q</span
+              ><button class="copy-button" data-code="2DH5Q">Copy code</button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628o0rnyr21"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628o0rnyr21 ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>HOTTEST 500 PICKS &amp; -60% COUPON</h3>
+            <div class="code-row">
+              <span class="code-box">L6U3M</span
+              ><button class="copy-button" data-code="L6U3M">Copy code</button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628q1rt3diz"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628q1rt3diz ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>TOP-RATED, TOP VALUE!</h3>
+            <div class="code-row">
+              <span class="code-box">DA53U86</span
+              ><button class="copy-button" data-code="DA53U86">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628suedu69t"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628suedu69t ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>MEN&#x27;S TOP PICKS SALE(UP TO 80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">VTR5NDP</span
+              ><button class="copy-button" data-code="VTR5NDP">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6628yjllla8g"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6628yjllla8g ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>JEWELRY &amp; ACCESSORIES(90% OFF + 60% Coupon)</h3>
+            <div class="code-row">
+              <span class="code-box">QSQP39Q</span
+              ><button class="copy-button" data-code="QSQP39Q">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6629kmr1zecj"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6629kmr1zecj ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>KIDS &amp; BABY(Up to 80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">YC6J784</span
+              ><button class="copy-button" data-code="YC6J784">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/6629uxov6f2i"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/6629uxov6f2i ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>TECH PREVIEW(UP TO 90% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">34B65GC</span
+              ><button class="copy-button" data-code="34B65GC">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662aenzzo29e"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662aenzzo29e ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>BLOMING BEAUTY(UP TO 90% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">FT57AMB</span
+              ><button class="copy-button" data-code="FT57AMB">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662h41g3ppka"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662h41g3ppka ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>CURVE STYLES, SUMMER STEALS(50% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">744KZ47</span
+              ><button class="copy-button" data-code="744KZ47">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662auo50kseu"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662auo50kseu ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>NEW SEASON, NEW MOVES(90% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">CFA3SV4</span
+              ><button class="copy-button" data-code="CFA3SV4">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662az5xjtaaf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662az5xjtaaf ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>SHEGLAM(UP TO 70% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">U48XQG5</span
+              ><button class="copy-button" data-code="U48XQG5">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662b1yk4k33v"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662b1yk4k33v ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>SLEEPWEAR(UP TO 80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">7JK574V</span
+              ><button class="copy-button" data-code="7JK574V">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662b3tn6d8wa"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662b3tn6d8wa ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>9AM HAIR(SALE UP TO 40% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">2924Y8N</span
+              ><button class="copy-button" data-code="2924Y8N">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662b9ymn03e8"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662b9ymn03e8 ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>KITCHEN &amp; DINING(90% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">773753E</span
+              ><button class="copy-button" data-code="773753E">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bbrqnpwky"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bbrqnpwky ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>CURATED BEAUTY PICKS(80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">7767H33</span
+              ><button class="copy-button" data-code="7767H33">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bdgwm7ltc"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bdgwm7ltc ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>ANEWSTA| SPRING &amp; SUMMER CHIC</h3>
+            <div class="code-row">
+              <span class="code-box">8M6JD29</span
+              ><button class="copy-button" data-code="8M6JD29">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bh34nmixn"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bh34nmixn ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>EMERY ROSE(UP TO 70% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">286W83F</span
+              ><button class="copy-button" data-code="286W83F">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bj06ql5dg"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bj06ql5dg ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>DENIM DAYS(UP TO 80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">2VGRRLG</span
+              ><button class="copy-button" data-code="2VGRRLG">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bkjflqonw"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bkjflqonw ↗</a
+            >
+          </article>
+          <article class="code-card">
+            <h3>GOOD CHOICE(UP TO 80% OFF)</h3>
+            <div class="code-row">
+              <span class="code-box">V88SJ7T</span
+              ><button class="copy-button" data-code="V88SJ7T">
+                Copy code
+              </button>
+            </div>
+            <a
+              class="code-link"
+              href="https://onelink.shein.com/58/662bnpve95wj"
+              target="_blank"
+              rel="noopener noreferrer"
+              >onelink.shein.com/58/662bnpve95wj ↗</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works">
+        <div class="section-wrap how-inner">
+          <div>
+            <p class="eyebrow">EASY AS 1, 2, 3</p>
+            <h2>How to use<br /><span>a discount code</span></h2>
+            <p class="section-intro">
+              A quick guide for visitors who are ready to shop.
+            </p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Choose an offer</h3>
+                <p>
+                  Browse the discounts above and find an offer that suits your
+                  order.
+                </p>
+              </div>
+            </article>
+            <article class="step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Copy the code</h3>
+                <p>
+                  For code offers, press “Copy code”. For sale offers, follow
+                  the shop link.
+                </p>
+              </div>
+            </article>
+            <article class="step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Check out</h3>
+                <p>
+                  Visit SHEIN, enter the code at checkout if required, and check
+                  the final price. If it does not work, feel free to reach out and we will help you!
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="links-section section-wrap" id="useful-links">
+        <div>
+          <p class="eyebrow">GO FURTHER</p>
+          <h2>Useful <span>links</span></h2>
+          <p class="section-intro">
+            Quick access to the shop and your other platforms.
+          </p>
+        </div>
+        <div class="useful-links">
+          <a
+            href="https://www.shein.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span
+              ><b>Official SHEIN website</b
+              ><small>Browse products and check offer terms</small></span
+            ><span>↗</span></a
+          >
+          <a
+            href="https://wa.me/27676721840"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span
+              ><b>WhatsApp</b
+              ><small>Reach out to us on WhatsApp</small></span
+            ><span>↗</span></a
+          >
+          <a
+            href="https://www.tiktok.com/@sheindisc_codes?_r=1&_t=ZS-9Aqla3IRr7c"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span
+              ><b>TikTok</b
+              ><small>Reach out to us on TikTok</small></span
+            ><span>↗</span></a
+          >
+          <a href="mailto:nmdigital48@gmail.com"
+            ><span
+              ><b>Contact</b
+              ><small>Nmdigital48@gmail.com</small></span
+            ><span>↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home">SHEIN<span>DEALS</span></a>
+      <p>An independent deals showcase. Not an official SHEIN website.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+      <small>© <span id="year"></span> SHEIN Deals. All rights reserved.</small>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
